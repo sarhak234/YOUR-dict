@@ -83,18 +83,18 @@ ul li p {
     font-size: larger;
 }
 
-
 .def {
     display: grid;
     justify-content: center;
     margin-top: 7vh;
     font-family: "Reddit Sans Condensed", sans-serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 450;
     font-style: normal;
     font-size: 25px;
-
+    text-align: center;
 }
+
 
 @media only screen and (max-width:405px) {
     ul li a {
@@ -115,3 +115,4 @@ ul li p {
 
 
 }
+
